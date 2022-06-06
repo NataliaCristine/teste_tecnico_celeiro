@@ -22,4 +22,6 @@ urlpatterns = [
     path('api/',include('localization.urls')),
     path('api/',include('measure.urls')),
     path('api/',include('team.urls')),
+    path('api/',include('game.urls')),
+    path('api/',include('event.urls')),
 ]

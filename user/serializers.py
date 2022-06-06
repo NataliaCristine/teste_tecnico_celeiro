@@ -4,6 +4,7 @@ class UserSerializer(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)
     name =serializers.CharField()
     sex = serializers.CharField()
+    
 
 class UserSerializerUpdate(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)

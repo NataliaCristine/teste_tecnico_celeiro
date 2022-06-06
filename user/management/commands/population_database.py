@@ -34,7 +34,7 @@ class Command(BaseCommand):
         for index, row in olympics.iterrows():
             print(row['ID'])
 
-            # user = User.objects.filter(id=row['ID']).first()
+            
             user_data ={
                 'id':int(row['ID']),
                 'name':row['Name'],
