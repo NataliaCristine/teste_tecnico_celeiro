@@ -24,4 +24,5 @@ urlpatterns = [
     path('api/',include('team.urls')),
     path('api/',include('game.urls')),
     path('api/',include('event.urls')),
+    path('api/',include('prize.urls')),
 ]
